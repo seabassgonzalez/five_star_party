@@ -8,11 +8,15 @@
     "postinstall": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress --colors"
   },
   "dependencies": {
+    "rc-calendar": "^7.2.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-parallax": "^0.4.5",
     "react-redux": "^4.4.1",
     "react-router": "^2.4.1",
     "react-router-redux": "4.0.6",
+    "react-star-rating": "^1.4.2",
+    "react-sticky": "^5.0.5",
     "redux": "^3.3.1",
     "redux-thunk": "^2.1.0",
     "webpack": "^1.9.11"

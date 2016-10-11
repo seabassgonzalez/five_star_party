@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { Link } from 'react-router'
 
-import GoodbyeWorld from './GoodbyeWorld'
-import HelloWorld from './HelloWorld'
+import GoodbyeWorld from '../containers/Goodbye'
+import HelloWorld from '../containers/Hello'
 
 export default class App extends Component {
   render() {
